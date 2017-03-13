@@ -1,0 +1,30 @@
+/* 公共 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: none 0;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+ul li {
+    list-style: none;
+}
+body {
+    font: 500 15px STKaiti, KaiTi_GB2312,"楷体", "宋体",Arial, Helvetica, sans-serif;
+}
+.clear:after,.clear:before{
+    content: "";
+    display: block;
+    clear: both;
+}
+.clear:after{
+    clear: both;
+}
+.clear{
+    zoom:1
+}

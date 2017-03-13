@@ -1,0 +1,77 @@
+.header-wrap {
+    min-width: 1100px;
+    background-color: white;
+}
+.header-content {
+    width: 1100px;
+    height: 130px;
+    margin: auto;
+}
+.header-content-logo {
+    width: 376px;
+    height: 130px;
+    float: left;
+    background: url("../images/header-logo.png");
+}
+.header-content-nav {
+    width: 700px;
+    height: 130px;
+    float: right;
+}
+.header-content-nav div {
+    float: left;
+    margin-top: 60px;
+    position: relative;
+    z-index: 999;
+    font-size: 18px;
+    color: #666666;
+    cursor: pointer;
+    padding: 10px 25px;
+}
+.header-content-nav div ul {
+    width: 170px;
+    background:#4AB344;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    display: none;
+    z-index: 999;
+}
+.header-content-nav div ul li {
+    height: 30px;
+    color:white;
+    font-size: 16px;
+    cursor: pointer;
+    padding-left: 30px;
+    line-height: 30px;
+    transition: padding-left .5s ease 0s;
+}
+.header-content-nav div ul li:hover {
+    padding-left: 40px;
+    color: green;
+    background: rgba(255,255,255,0.9) url("../images/nav_li_bg.png") no-repeat 155px center;
+    transition: padding-left .5s ease 0s;
+}
+.xialatubiao {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-left: 5px;
+    background: url("../images/nav_xiajiantou.png");
+    transform: rotate(0deg);
+    transition: transform .5s ease 0s;
+}
+.now {
+    color: #4AB344!important;
+    background: url("../images/nav_now_bg.png") no-repeat center bottom;
+}
+.header-content-nav div:hover {
+    background: url("../images/nav_now_bg.png") no-repeat center bottom;
+}
+.header-content-nav div:hover .xialatubiao {
+    background: url("../images/nav_xiajiantou_hover.png");
+    transform: rotate(180deg);
+    transition: transform .5s ease 0s;
+}

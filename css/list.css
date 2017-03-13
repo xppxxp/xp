@@ -1,0 +1,218 @@
+body{
+    background: #F1F2F6;
+}
+.content_wrap {
+    width: 1100px;
+    margin: 0 auto;
+    min-height: 500px;
+    padding-top: 60px;
+    overflow: hidden;
+}
+
+.penjingyishubig {
+    width: 1920px;
+    height: 300px;
+    margin: auto;
+    background: url("../images/pengjingyishubig2.png");
+}
+
+.banner-one {
+    font-size: 40px;
+    float: left;
+    width: 1920px;
+    height: 300px;
+}
+#banner-wrap{
+    min-width: 1100px;
+    overflow: hidden;
+}
+#banner {
+    width: 1920px;
+    height: 300px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+#banner-bbb {
+    width: 7680px;
+    position: absolute;
+}
+.square-wrap{
+    width: 1100px;
+    height: 40px;
+    margin:auto;
+    position: relative;
+    top: -50px;
+}
+.square {
+    position: absolute;
+    left: 50%;
+    margin-left: -90px;
+}
+
+.square span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    margin-right: 50px;
+    background-color: rgba(123,123,123,0.3);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.square span.current {
+    background-color: rgba(84,255,35,0.3);
+    /*color: #ff9f49;*/
+}
+
+
+
+
+.zhuti {
+    width: 1100px;
+    height: 80px;
+}
+
+.zhuti div {
+    width: 350px;
+    height: 80px;
+    padding-top: 30px;
+    float: left;
+    text-align: center;
+    background: url("../images/huitiao.jpg") no-repeat center top;
+}
+
+.zhuti p {
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #464646;
+}
+
+.zhuti-sheji {
+    margin-left: 25px;
+}
+
+.zhuti-guimo {
+    margin-left: 25px;
+}
+
+.penjingjianjie {
+    width: 660px;
+    margin: 50px auto;
+    font-size: 17px;
+    color: #999999;
+    text-align: center;
+}
+
+.content_wrap > img {
+    margin: 0 auto;
+    display: block;
+    margin-top: 15px;
+}
+.list_content {
+    padding-top: 40px;
+    overflow: hidden;
+    width: 1130px;
+}
+
+/*单个列表样式*/
+.content_one {
+    width: 513px;
+    height: 202px;
+    float: left;
+    background: #fff;
+    padding: 36px 0 0 20px;
+    margin: 0 20px 30px 0;
+    border: 1px solid #fff;
+    cursor: pointer;
+    position: relative;
+}
+
+.content_one .list_img_over_xiaojiantou {
+    position: absolute;
+    left: 0;
+    top: 36px;
+}
+
+.content_one:hover {
+    border-color: #2d9e36;
+    box-shadow:2px 2px 2px 2px  #2d9e36;
+    transform: translateY(-6px);
+    transition: all 0.3s ease 0s;
+}
+
+.content_one:hover .list_img_over_xiaojiantou {
+    transition: all 0.3s ease 0s;
+    top: 36px;
+    left: 50px;
+}
+
+.content_one .img_wrap {
+    height: 168px;
+    width: 260px;
+    overflow: hidden;
+    float: left;
+    margin-right: 17px;
+}
+
+.content_one .img_wrap img {
+    width: 260px;
+}
+
+.content_one .content_text {
+    width: 221px;
+    float: left;
+}
+
+.content_one .title_small {
+    font-size: 20px;
+    color: #454548;
+    line-height: 26px;
+    max-height: 53px;
+    overflow: hidden;
+    padding-top: 15px;
+}
+
+.content_one .date {
+    color: #6b6a6f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-top: 2px;
+}
+
+.content_one p {
+    padding-top: 8px;
+    color: #47464a;
+    line-height: 25px;
+    max-height: 75px;
+    overflow: hidden;
+    font-family: KaiTi_GB2312;
+    letter-spacing: 0;
+}
+
+.list_more {
+    height: 58px;
+    width: 58px;
+    background: url(../images/lis_more_btn_bg.png) no-repeat 0 -58px;
+    margin: 15px auto 50px;
+    cursor: pointer;
+}
+
+.list_more:hover {
+    background-position: 0 0;
+    transition: all 0.3s ease 0s;
+}
+
+/*底部*/
+.link_footer_img {
+    background: url(../images/map_bottomimg.png) top center no-repeat;
+    height: 33px;
+    width: 100%;
+    min-width: 1100px;
+}

@@ -1,0 +1,138 @@
+.content_wrap{
+    width:780px;
+    margin:0 auto;
+    min-height:700px;
+    padding:70px 160px 220px 160px;
+}
+.content_wrap > img{
+    margin:0 auto;
+    display:block;
+    margin-top:15px;
+}
+.content_wrap > .title_big{
+    text-align:center;
+    font-size:30px;
+}
+.content_wrap > h2{
+    text-align:center;
+    font-size:18px;
+    color:#bdbdbd;
+}
+.content_wrap > .title_big{
+    line-height:60px;
+}
+.content_wrap > h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    font-size:18px;
+    letter-spacing:6px;
+}
+.title_list{
+    color:#311759;
+    font-size:30px;
+    background:url(../images/pen_line_long.png) no-repeat -320px 58px;
+    height:60px;
+    position:relative;
+    margin-top:70px;
+}
+.title_list .pen{
+    width:61px;
+    height:58px;
+    background:url(../images/pen_article.png) no-repeat;
+    position:absolute;
+    right:0px;
+    top:7px;
+    cursor:pointer;
+}
+.title_list .pen:hover{
+    background-position:-61px 0;
+}
+.list_content{
+    padding-top:40px;
+    overflow:hidden;
+    width:1130px;
+}
+
+.auther{
+    color:#6b6a6f;
+    padding-top:15px;
+    margin-bottom:60px;
+}
+.auther span{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.article_content{
+
+}
+
+.like_btn_wrap{
+    margin-top:80px;
+    margin-left:350px;
+    width:73px;
+    height:73px;
+    overflow:hidden;
+}
+.like_showbox{
+    width:220px;
+}
+.like_btn_wrap .like_btn{
+    width:73px;
+    height:73px;
+    float:left;
+    background:url(../images/article_iflike.png) no-repeat;
+    cursor:pointer;
+}
+.like_btn_wrap .like_btn_clicked{
+    background-position:0 -73px;
+    cursor:default;
+    transition: all 0.5s ease 0s;
+}
+.like_btn_wrap .like_btn_clicked:hover{
+
+}
+.like_btn_wrap .like_nomber{
+    width:135px;
+    height:35px;
+    float:left;
+    margin-left:5px;
+    background:url(../images/article_iflike_nomberbg.png) no-repeat;
+    margin-top:19px;
+    padding-top:8px;
+    color:#fff;
+    text-align:center;
+    padding-left:5px;
+}
+.like_btn_wrap:hover{
+    width:213px;
+    transition: all 0.5s ease 0s;
+}
+.like_btn_wrap:hover .like_btn{
+    animation:su-pudding 1s linear 0s normal none 1 running ;
+}
+.like_tips{
+    min-width:235px;
+    padding:27px 10px;
+    background:#f1f2f6;
+    border-radius:5px;
+    position:absolute;
+    top:370px;
+    left:258px;
+    color:#311859;
+    font-size:24px;
+    text-align:center;
+    opacity:0;
+    filter:alpha(opacity=0);
+}
+.like_tips_wrap{
+    position:relative;
+    /*margin-top:54px;*/
+}
+/*底部*/
+.link_footer_img {
+    background:#F1F2F6 url(../images/map_bottomimg.png) top center no-repeat;
+    height: 33px;
+    width: 100%;
+    min-width: 1100px;
+}

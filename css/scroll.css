@@ -1,0 +1,41 @@
+/*返回顶部*/
+.fhdb-wrap {
+    width: 87px;
+    height: 170px;
+    position: fixed;
+    right: 30px;
+    bottom: 180px;
+    z-index: 100;
+    display: none;
+}
+
+.fanhuidingbu {
+    width: 50px;
+    height: 50px;
+    margin-left: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    background: url("../images/scroll_top_bg.png") no-repeat;
+}
+
+.fanhuidingbu:hover {
+    background: url("../images/scroll_top_bg.png") no-repeat 0 -50px;
+    transition: background .5s ease 0s;
+}
+
+.lianxiwomen1 {
+    width: 87px;
+    height: 87px;
+    z-index: 100;
+    position: absolute;
+    right: 0;
+    margin-top: 30px;
+    cursor: pointer;
+    background: url("../images/fixed_contactus.png") no-repeat center right;
+}
+
+.lianxiwomen1:hover {
+    width: 235px;
+    transition: all 1s ease 0s;
+    animation: su-pudding 1s ease 0s;
+}

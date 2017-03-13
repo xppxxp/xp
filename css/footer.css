@@ -1,0 +1,68 @@
+.footer{
+    min-width: 1100px;
+    height: 348px;
+    position: relative;
+    overflow: hidden;
+}
+.map-yinyue{
+    width: 1920px;
+    height: 348px;
+    position: absolute;
+    left:50%;
+    margin-left: -960px;
+    background:#313131;
+}
+.map-yinyue-fu{
+    width: 590px;
+    height: 57px;
+    margin:120px auto 0;
+}
+.map-yinyue-fu div{
+    width: 57px;
+    height: 57px;
+    float: left;
+    cursor: pointer;
+    margin-right: 26px;
+}
+.map-yinyue-fu div:hover{
+    background-position: 0 -57px;
+    animation: tada 1s ease 0s;
+}
+.map-yinyue-fu1{
+    background: url("../images/yinyue_duo.png")no-repeat;
+}
+.map-yinyue-fu2{
+    background: url("../images/yinyue_lai.png")no-repeat;
+}
+.map-yinyue-fu3{
+    background: url("../images/yinyue_mi.png")no-repeat;
+}
+.map-yinyue-fu4{
+    background: url("../images/yinyue_fa.png")no-repeat;
+}
+.map-yinyue-fu5{
+    background: url("../images/yinyue_suo.png")no-repeat;
+}
+.map-yinyue-fu6{
+    background: url("../images/yinyue_la.png")no-repeat;
+}
+.map-yinyue-fu7{
+    background: url("../images/yinyue_xi.png")no-repeat;
+}
+.footer-line{
+    width: 1100px;
+    height: 2px;
+    margin:100px auto 0;
+    background: url("../images/next&prev_line.png");
+}
+.map-yinyue p{
+    width: 1100px;
+    height: 20px;
+    margin:20px auto 0;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+.map-yinyue p:hover{
+    color: #27a1ff;
+}

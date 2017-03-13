@@ -1,0 +1,486 @@
+.header-wrap {
+    min-width: 1100px;
+    background: #d8d8d8;
+}
+
+.header {
+    width: 1100px;
+    height: 50px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.header-logo {
+    width: 132px;
+    height: 50px;
+    float: left;
+    cursor: pointer;
+    background: url("../images/aboutxiaoniao/logo.png");
+}
+
+.header-nav {
+    width: 900px;
+    height: 50px;
+    float: left;
+    margin-left: 50px;
+}
+
+.header-nav h1 {
+    float: left;
+    margin-right: 30px;
+    margin-top: 15px;
+    height: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #ff9f49;
+}
+.header-nav h1:hover{
+    background: url("../images/nav_now_bg.png") no-repeat center bottom;
+    transition: background .5s ease 0s;
+}
+
+.now {
+    color: green !important;
+    background: url("../images/nav_now_bg.png") no-repeat center bottom;
+}
+
+.main-wrap {
+    min-width: 1100px;
+    overflow: hidden;
+}
+
+.main-content {
+    min-width: 1100px;
+    position: relative;
+}
+
+.banner1 {
+    min-width: 1100px;
+    height: 670px;
+    overflow: hidden;
+    position: relative;
+}
+.shouye {
+    padding-top: 50px;
+    background: url("../images/banner3.jpg");
+    -moz-user-select: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+.shouye-pic-gif-wrap{
+    width: 800px;
+    position: absolute;
+    top:200px;
+    left:50%;
+    margin-left:-400px ;
+}
+.pic-gif {
+    width: 400px;
+    height: 401px;
+    margin: -55px auto 0;
+}
+
+.xnzx {
+    text-align: center;
+}
+
+.xnzx h1 {
+    font-size: 60px;
+    color: white;
+}
+
+.xnzx p {
+    font-family: Arial;
+    font-size: 25px;
+    color: white;
+    letter-spacing: 6px;
+}
+
+.wenzi1 {
+    width: 490px;
+    height: 65px;
+    margin: 20px auto 0;
+    text-align: center;
+    line-height: 65px;
+    font-size: 50px;
+    color: white;
+    background: url("../images/aboutxiaoniao/yinhao1_zuo.png") no-repeat left top,
+    url("../images/aboutxiaoniao/yinhao1_you.png") no-repeat right bottom;
+}
+
+.wenzi2 {
+    width: 800px;
+    height: 50px;
+    margin: 20px auto 0;
+    text-align: center;
+    line-height: 20px;
+    font-size: 25px;
+    color: white;
+}
+.animate-up{
+    display: none;
+}
+.banner1-item{
+    width: 1100px;
+    margin:20px auto 0;
+    text-align: center;
+    font-size: 50px;
+    line-height: 50px;
+    color: #999999;
+}
+.banner1-item span{
+    color: #2d9e36;
+}
+.banner1-item1{
+    width: 1100px;
+    margin:auto;
+    overflow: hidden;
+    position: relative;
+}
+.shu1{
+    width: 439px;
+    height: 160px;
+    background: url("../images/lefttop.png")no-repeat right bottom;
+    position: absolute;
+    left:-439px;
+    top:70px;
+}
+.banner1-item1 img{
+    float: left;
+}
+.item1{
+    float: left;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.item2{
+    width: 230px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.shu2{
+    width: 400px;
+    height: 160px;
+    background:url("../images/righttop.png")no-repeat left bottom;
+    position: absolute;
+    left:1100px;
+    top:80px;
+}
+.shu3{
+    width: 439px;
+    height: 160px;
+    background: url("../images/leftbottom.png")no-repeat right bottom;
+    position: absolute;
+    left:-439px;
+    top:310px;
+}
+.shu4{
+    width: 400px;
+    height: 160px;
+    background: url("../images/rightbottom.png")no-repeat left bottom;
+    position: absolute;
+    left:1100px;
+    top:340px;
+}
+.pic-gif {
+    width: 350px;
+    height: 230px;
+    cursor: pointer;
+    margin:160px auto 0;
+}
+.xiala {
+    width: 58px;
+    height: 58px;
+    cursor: pointer;
+    float: left;
+    z-index: 20;
+    margin-top: 80px;
+    margin-left: 520px;
+    background: url("../images/goOn_icon01.png") center bottom;
+    animation: jello 2s ease 3s infinite;
+}
+
+/*概述*/
+.banner1-btnleft {
+    width: 58px;
+    height: 58px;
+    border-radius: 58px;
+    position: absolute;
+    top: 280px;
+    left: 60px;
+    cursor: pointer;
+    background:url("../images/aboutxiaoniao/goleft.png");
+    transition:background-position .5s ease 0s ;
+}
+
+.banner1-btnright {
+    width: 58px;
+    height: 58px;
+    border-radius: 58px;
+    position: absolute;
+    top: 280px;
+    right: 60px;
+    cursor: pointer;
+    background:url("../images/aboutxiaoniao/goright.png")no-repeat right center;
+    transition:background-position .5s ease 0s ;
+    animation: su-pudding 1s ease 1s infinite;
+}
+.banner1-btnleft:hover{
+    background-position: right center;
+    transition:background-position .5s ease 0s ;
+}
+.banner1-btnright:hover{
+    background-position: left center;
+    transition:background-position .5s ease 0s ;
+}
+.banner1-gaishu{
+    width: 1100px;
+    position: absolute;
+    left:50%;
+    margin-left:-550px;
+    display: none;
+    /*background: #aeaeae;*/
+}
+.gaishu {
+    text-align: center;
+    margin:20px auto 0;
+}
+
+.gaishu h1 {
+    font-size: 48px;
+    color: #1b9315;
+}
+.wmdfwleft-pic{
+    width: 480px;
+    height: 460px;
+    float: left;
+    background:url("../images/aboutxiaoniao/fw0.png")no-repeat center;
+}
+.gaishu-wenzi {
+    width: 1000px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    margin: 40px auto 0;
+    color: #f4fff0;
+}
+
+.gaishu-3pic {
+    width: 1000px;
+    height: 197px;
+    margin: 60px auto 0;
+    background: red;
+    position: relative;
+    overflow: hidden;
+}
+.gaishu-3pic img {
+    width: 370px;
+    height: 197px;
+    position: absolute;
+    /*border: 1px solid #fff;*/
+}
+.bird-title-content1{
+    width: 620px;
+    height: 78px;
+    margin-top:40px
+}
+.bird-title-content1 div{
+    float: left;
+}
+.bird-title-content1-pic{
+    width: 68px;
+    height: 78px;
+}
+.bird-title-content1-wenzi {
+    color: white;
+    width: 520px;
+    margin-left: 30px;
+    font-size: 16px;
+}
+/*企业价值*/
+.qiyejz-title{
+    width: 1100px;
+    text-align: center;
+    margin:20px auto 0;
+}
+.qiyejz-title h1{
+    font-size: 48px;
+    color: white;
+    margin:auto;
+}
+.qiyejz-biankuang-top{
+    width: 970px;
+    height: 20px;
+    margin:110px auto 0;
+    position: relative;
+}
+.zuo{
+    position: absolute;
+    left:0;
+    top:0;
+}
+.you{
+    position: absolute;
+    right:0;
+    top:0;
+}
+.faguangde{
+    opacity: 0;
+}
+.qiyejz-biankuang-bottom{
+    width: 970px;
+    height: 20px;
+    margin:auto;
+    position: relative;
+}
+.qiyejz{
+    width: 850px;
+    height: 317px;
+    margin:auto;
+}
+.qiyejz-one{
+    width: 370px;
+    height: 75px;
+    float: left;
+    margin-right: 45px;
+    margin-bottom: 40px;
+}
+#tooltip {
+    display: none;
+    position: absolute;
+}
+.number{
+    width: 75px;
+    height: 75px;
+    border: 1px solid white;
+    border-radius: 75px;
+    float: left;
+}
+.qiyejz-one p{
+    width: 270px;
+    height: 40px;
+    float: left;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+}
+/*小鸟掌云*/
+.xnzy{
+    width: 920px;
+    height: 420px;
+    margin:30px auto 0;
+    position: relative;
+    overflow: hidden;
+}
+.xnzy-title{
+    width: 1100px;
+    text-align: center;
+    margin:20px auto 0;
+}
+.xnzy-title h1{
+    font-size: 50px;
+    margin:auto;
+}
+.xnzy-title p{
+    font-size: 18px;
+    color: #999999;
+    margin:auto;
+}
+.xnzy-content{
+    width: 920px;
+    display: none;
+    position: absolute;
+    line-height: 36px;
+    font-size: 18px;
+}
+.xnzy-content p,img{
+    float: left;
+}
+.xnzy-btn{
+    width: 250px;
+    height: 8px;
+    position: absolute;
+    top:560px;
+    left:50%;
+    margin-left: -90px;
+}
+.xnzy-btn div{
+    float: left;
+    width: 78px;
+    height: 8px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    background: url("../images/aboutxiaoniao/xiaoniaoyun_btn.png")no-repeat center bottom;
+}
+.xnzy-btn span{
+    display: inline-block;
+    width: 78px;
+    height: 8px;
+    cursor: pointer;
+    background: url("../images/aboutxiaoniao/xiaoniaoyun_btn.png")no-repeat center top;
+    position: absolute;
+}
+.xnzy-btn2{
+    margin-left: 30px;
+}
+.xnzy-btn2 span{
+    left:-78px;
+}
+
+/*下载/联系*/
+.lianxi{
+    background: url('../images/aboutxiaoniao/app&contacts.png')no-repeat center;
+}
+.lianxixiazai{
+    width: 1100px;
+    height: 600px;
+    margin:auto;
+}
+.erweima{
+    width: 370px;
+    height: 370px;
+    float: left;
+    margin-left: 40px;
+    background: url("../images/aboutxiaoniao/jiazhi_border_11.png")no-repeat left top,
+    url("../images/aboutxiaoniao/jiazhi_border_21.png")no-repeat right top,
+    url("../images/aboutxiaoniao/jiazhi_border_31.png")no-repeat left bottom,
+    url("../images/aboutxiaoniao/jiazhi_border_41.png")no-repeat right bottom;
+}
+.erweima1{
+    width: 300px;
+    height: 300px;
+    margin:35px auto;
+    background:white url("../images/aboutxiaoniao/aaa.jpg")no-repeat center;
+}
+.appxiazai{
+    height: 60px;
+    font-size: 45px;
+    color: white;
+    float: left;
+    margin-left: 120px;
+    margin-top: 80px;
+}
+.lianxikefu{
+    width: 380px;
+    height: 170px;
+    float: right;
+    margin-top: 230px;
+    margin-right: 190px;
+    background:url("../images/lianxi_kuaier_bg.png")no-repeat right 40px,
+    url("../images/next&prev_line.png")no-repeat left 43px;
+}
+.lianxikefu h1{
+    font-size: 25px;
+}
+.lianxikefu div{
+    width: 380px;
+    height: 100px;
+    line-height: 35px;
+    font-size: 18px;
+    margin-top: 40px;
+}
